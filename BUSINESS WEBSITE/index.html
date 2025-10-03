@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stickieverse Studio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="unnamed.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="heading">
+        <i class="fa-solid fa-bars side-bar"></i>
+        <nav class="search-bar">
+            <input type="text" class="input-text" placeholder="Search Here">
+            <button class="search-icon"><i class="fa-solid fa-magnifying-glass serach-icon"></i></button>
+        </nav>
+        <i class="fa-solid fa-cart-shopping add-cart"></i>
+    </header>
+    <nav class="sidebar-nav" id="sidebarNav">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#stickers">Stickers</a></li>
+            <li><a href="#posters">Posters</a></li>
+            <li><a href="#bookmarks">Bookmarks</a></li>
+            <li><a href="#keyrings">Keyrings</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+        </ul>
+    </nav>
+    <main class="main-item">
+        <div class="welcome">Welcome To Stickiverse Studio</div>
+        <h2 class="quality">"Stickiverse Studio is a design-forward sticker brand that transforms imagination into vibrant, collectible art. Each sticker is crafted with precision, printed on high-quality vinyl, and built to last. Whether you're decorating your devices, gifting something unique, or curating your own sticker universe, Stickiverse Studio offers a bold, expressive way to showcase personality and creativity."</h2>
+        <div class="cards-wrapper">
+            <div class="card-container">
+                <img class="product-photo" src="unnamed.png" alt="Sticker 1">
+                <div class="product-details">
+                    <h3>Anime Sticker</h3>
+                    <p>High quality anime sticker for laptops.</p>
+                </div>
+                <div class="card-actions">
+                    <button class="download-btn" onclick="downloadCardImage(this)"><i class="fa-solid fa-cloud-arrow-down"></i></button>
+                </div>
+            </div>
+            <div class="card-container">
+                <img class="product-photo" src="unnamed.png" alt="Sticker 2">
+                <div class="product-details">
+                    <h3>Marvel Sticker</h3>
+                    <p>Marvel superhero sticker for phones.</p>
+                </div>
+                <div class="card-actions">
+                    <button class="download-btn" onclick="downloadCardImage(this)"><i class="fa-solid fa-cloud-arrow-down"></i></button>
+                </div>
+            </div>
+            <div class="card-container">
+                <img class="product-photo" src="unnamed.png" alt="Sticker 3">
+                <div class="product-details">
+                    <h3>Car Sticker</h3>
+                    <p>Sporty car sticker for windows.</p>
+                </div>
+                <div class="card-actions">
+                   <button class="download-btn" onclick="downloadCardImage(this)"><i class="fa-solid fa-cloud-arrow-down"></i></button>
+                </div>
+            </div>
+            <div class="card-container">
+                <img class="product-photo" src="unnamed.png" alt="Sticker 4">
+                <div class="product-details">
+                    <h3>Bike Poster</h3>
+                    <p>Cool bike poster for walls.</p>
+                </div>
+                <div class="card-actions">
+                   <button class="download-btn" onclick="downloadCardImage(this)"><i class="fa-solid fa-cloud-arrow-down"></i></button>
+                </div>
+            </div>
+            <div class="card-container">
+                <img class="product-photo" src="unnamed.png" alt="Sticker 5">
+                <div class="product-details">
+                    <h3>Laptop Sticker</h3>
+                    <p>Trendy sticker for laptops.</p>
+                </div>
+                <div class="card-actions">
+                   <button class="download-btn" onclick="downloadCardImage(this)"><i class="fa-solid fa-cloud-arrow-down"></i></button>
+                </div>
+            </div>
+            <div class="card-container">
+                <img class="product-photo" src="unnamed.png" alt="Sticker 6">
+                <div class="product-details">
+                    <h3>Motivational Poster</h3>
+                    <p>Inspirational poster for rooms.</p>
+                </div>
+                <div class="card-actions">
+                   <button class="download-btn" onclick="downloadCardImage(this)"><i class="fa-solid fa-cloud-arrow-down"></i></button>
+                </div>
+            </div>
+            <div class="card-container">
+                <img class="product-photo" src="unnamed.png" alt="Sticker 7">
+                <div class="product-details">
+                    <h3>Regional Poster</h3>
+                    <p>Regional art poster for decor.</p>
+                </div>
+                <div class="card-actions">
+                   <button class="download-btn" onclick="downloadCardImage(this)"><i class="fa-solid fa-cloud-arrow-down"></i></button>
+                </div>
+            </div>
+            <div class="card-container">
+                <img class="product-photo" src="unnamed.png" alt="Sticker 8">
+                <div class="product-details">
+                    <h3>Keyring Sticker</h3>
+                    <p>Fun sticker for keyrings.</p>
+                </div>
+                <div class="card-actions">
+                   <button class="download-btn" onclick="downloadCardImage(this)"><i class="fa-solid fa-cloud-arrow-down"></i></button>
+                </div>
+            </div>
+            <div class="card-container">
+                <img class="product-photo" src="unnamed.png" alt="Sticker 9">
+                <div class="product-details">
+                    <h3>Bookmark Sticker</h3>
+                    <p>Bookmark sticker for books.</p>
+                </div>
+                <div class="card-actions">
+                   <button class="download-btn" onclick="downloadCardImage(this)"><i class="fa-solid fa-cloud-arrow-down"></i></button>
+                </div>
+            </div>
+            <div class="card-container">
+                <img class="product-photo" src="unnamed.png" alt="Sticker 10">
+                <div class="product-details">
+                    <h3>Poster Sticker</h3>
+                    <p>Poster sticker for walls.</p>
+                </div>
+                <div class="card-actions">
+                   <button class="download-btn" onclick="downloadCardImage(this)"><i class="fa-solid fa-cloud-arrow-down"></i></button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
